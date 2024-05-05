@@ -1,11 +1,11 @@
 import React from "react";
-import banner from '../../public/banner.jpg'
+import banner from '/banner.jpg'
 
 const Banner = () => {
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row  mt-12 md:mt-31">
-        <div className="w-full md:w-1/2">
+      <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-36">
+        <div className="order-2 md:order-1 w-full md:w-1/2">
           <div className="space-y-12">
             <h1 className="text-4xl font-bold">
               We welcome you here to learn something{" "}
@@ -23,8 +23,8 @@ const Banner = () => {
         <button className="btn mt-6 btn-secondary">Secondary</button>
         </div>
 
-        <div className="w-full md:w-1/2">
-          <img src={banner} className="w-90 h-90" alt="" />
+        <div className="order-1 w-full md:w-1/2">
+          <img src={banner} className="w-85 h-85" alt="" />
         </div>
       </div>
     </>
