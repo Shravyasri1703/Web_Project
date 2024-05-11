@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "name": "Leo Tolstoy",
-        "title": "War & Peace",
+        "name": "War & Peace",
+        "title": "Leo Tolstoy",
         "price": 0,
         "category": "Free",
         "image": "https://m.media-amazon.com/images/I/71wXZB-VtBL._AC_UF1000,1000_QL80_.jpg"
@@ -19,8 +19,8 @@
 
     {
         "id": 3,
-        "name": "Walter Isaacson",
-        "title": "Steve Jobs",
+        "name": "Steve Jobs",
+        "title": "Walter Isaacson",
         "price": 0,
         "category": "Free",
         "image": "https://m.media-amazon.com/images/I/71PTAp96xLL._AC_UF1000,1000_QL80_.jpg"
@@ -28,8 +28,8 @@
 
     {
         "id": 4,
-        "name": "Stephen Hawking",
-        "title": "Theory of Everything",
+        "name": "Theory of Everything",
+        "title": "Stephen Hawking",
         "price": 0,
         "category": "Free",
         "image": "https://m.media-amazon.com/images/I/61+XjZPGIZL._AC_UF1000,1000_QL80_.jpg"
@@ -41,6 +41,33 @@
         "title": "India that is Bharat",
         "price": 300,
         "category": "History and Geopolitics",
+        "image": "https://m.media-amazon.com/images/I/81qiBQl89PL._AC_UF1000,1000_QL80_.jpg"
+    },
+
+    {
+        "id": 6,
+        "name": "India that is Bharat",
+        "title": "J. Sai Deepak",
+        "price": 300,
+        "category": "Free",
+        "image": "https://m.media-amazon.com/images/I/81qiBQl89PL._AC_UF1000,1000_QL80_.jpg"
+    },
+
+    {
+        "id": 7,
+        "name": "The India Way",
+        "title": "Dr. S. Jaishankar",
+        "price": 0,
+        "category": "Free",
+        "image": "https://m.media-amazon.com/images/I/81mp3bdBitL._AC_UF1000,1000_QL80_.jpg"
+    },
+
+    {
+        "id": 8,
+        "name": "India that is Bharat",
+        "title": "J. Sai Deepak",
+        "price": 0,
+        "category": "Free",
         "image": "https://m.media-amazon.com/images/I/81qiBQl89PL._AC_UF1000,1000_QL80_.jpg"
     }
 ]
