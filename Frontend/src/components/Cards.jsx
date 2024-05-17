@@ -5,7 +5,7 @@ const Cards = ({item}) => {
   return (
     <>
       <div className="mt-4 my-3 p-3">
-        <div className="card w-92 bg-base-100 shadow-xl">
+        <div className="card w-92 bg-base-100 shadow-xl hover:scale-105 duration-200">
           <figure style={{ width: '100%', height: '100%' }}>
             <img
               src={item.image}
