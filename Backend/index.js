@@ -2,19 +2,22 @@ import express from 'express'
 import dotenv from 'dotenv'
 import mongoose from 'mongoose'
 import bookRoute from './routes/book.route.js'
+import userRoute from './routes/user.route.js'
 
 const app = express()
 
 dotenv.config()
 
+app.use(express.json())
+
 app.get('/', (req, res)=>{
     res.send('working')
 })
 
-const url = 'mongodb+srv://shravyasrishravyasri21:webtechno@cluster0.ji5rpld.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+
 const connectDB = async () =>{
   try{
-  await mongoose.connect(url)
+  await mongoose.connect('mongodb+srv://shravyakmp:VITPUNE@cluster0.i5abkat.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
    console.log('connected')
 }
 catch(err){
@@ -26,7 +29,8 @@ connectDB()
 
 //defining routes
 
-app.use('/', bookRoute)
+app.use('/book', bookRoute)
+app.use("/user", userRoute);
 
 
 
