@@ -7,7 +7,11 @@ export default {
   ],
   darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      maxHeight: {
+        '520px': '520px',
+      },
+    },
   },
   plugins: [daisyui],
 }
