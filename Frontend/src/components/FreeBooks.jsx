@@ -45,7 +45,7 @@ const FreeBooks = () => {
 
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto md:px-20 px-4">
+      <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 mt-14">
         <div>
           <h1 className="font-semibold text-xl pb-2">Free offered Books</h1>
           <p>

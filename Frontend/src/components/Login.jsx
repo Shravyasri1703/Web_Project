@@ -41,7 +41,7 @@ const Login = () => {
             </button>
             <p>
               Not registered?{" "}
-              <a href="" className="underline text-blue-500 cursor-pointer">
+              <a href="/signup" className="underline text-blue-500 cursor-pointer">
                 Signup
               </a>
             </p>
