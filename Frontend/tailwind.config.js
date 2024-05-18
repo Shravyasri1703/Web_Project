@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       maxHeight: {
-        '520px': '520px',
+        '510px': '510px',
       },
     },
   },

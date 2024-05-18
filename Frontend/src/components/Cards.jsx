@@ -5,12 +5,12 @@ const Cards = ({item}) => {
   return (
     <>
       <div className="mt-4 p-3">
-        <div className="card w-92 max-h-520px bg-base-100 shadow-xl hover:scale-105 duration-200 dark:bg-slate-900 dark:text-white dark:border">
+        <div className="card w-92 max-h-510px bg-base-100 shadow-xl hover:scale-105 duration-200 dark:bg-slate-900 dark:text-white dark:border">
           <figure style={{ width: '100%', height: '100%' }}>
             <img
               src={item.image}
               alt="Books"
-              style={{ width: '100%', height: '379px', objectFit: 'cover' }}
+              style={{ width: '100%', height: '370px', objectFit: 'fill' }}
             />
           </figure>
           <div className="card-body">
