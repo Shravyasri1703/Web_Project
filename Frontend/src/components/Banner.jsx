@@ -32,7 +32,7 @@ const Banner = () => {
         </div>
 
         <div className="order-1 w-full md:w-1/2 mt-8">
-          <img src={banner} className="w-85 h-85" alt="" />
+          <img src={banner} className="w-85 h-85 rounded-2xl" alt="" />
         </div>
       </div>
     </>

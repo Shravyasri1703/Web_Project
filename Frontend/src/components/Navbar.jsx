@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Login from "./Login";
 
 const Navbar = () => {
   const [theme, setTheme] = useState(localStorage.getItem("theme") ? localStorage.getItem("theme") : "light");
@@ -37,7 +38,7 @@ const Navbar = () => {
         <a href="/">Home</a>
       </li>
       <li>
-        <a href="/course">Course</a>
+        <a href="/course">Books</a>
       </li>
       <li>
         <a>Contact</a>
@@ -145,9 +146,10 @@ const Navbar = () => {
               </svg>
             </label>
             <div>
-              <a className="bg-black text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer">
+              <a className="bg-black text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer" onClick={() => document.querySelector("#my_modal_3").showModal()}>
                 Login
               </a>
+              <Login />
             </div>
           </div>
         </div>
