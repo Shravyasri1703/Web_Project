@@ -3,8 +3,11 @@ import dotenv from 'dotenv'
 import mongoose from 'mongoose'
 import bookRoute from './routes/book.route.js'
 import userRoute from './routes/user.route.js'
+import cors from 'cors'
 
 const app = express()
+
+app.use(cors())
 
 dotenv.config()
 
